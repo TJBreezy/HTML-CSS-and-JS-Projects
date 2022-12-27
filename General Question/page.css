@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Caramel&family=Hanken+Grotesk:wght@100;300&family=Roboto:wght@100&display=swap");
+
+body {
+  background-color: white;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  cursor:pointer;
+}
+
+nav {
+  width: 50%;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  background: rgba(59, 147, 219, 0.5);
+  padding: 30px;
+}
+
+h1 {
+  font-family: Caramel;
+  text-align: center;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  width: 100%;
+  font-family: Roboto;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+article .one {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  vertical-align: middle;
+}
+
+article .query {
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.btn {
+  background: none;
+  border: none;
+  padding: auto;
+  margin-right: 10px;
+}
+.open-btn,
+.close-btn {
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 2px;
+  border-color: rgba(8, 38, 63, 0.5);
+
+  
+}
+
+.close-btn{
+  display: none;
+}
+
+article .two {
+  display: none;
+  text-align: center;
+  border-top-style: solid;
+  border-top-color: rgba(119, 118, 118, 0.7);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+i {
+  padding: 2px;
+  color: rgba(8, 38, 63, 0.5);
+}
+
+.open-btn:hover,
+.close-btn:hover {
+  animation: rotate 1s 1;
+  cursor: pointer;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+

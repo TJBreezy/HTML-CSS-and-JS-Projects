@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto";
+  letter-spacing: 2px;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+section {
+  margin-top: 5%;
+}
+
+h1 {
+  display: inline-block;
+  border-bottom: solid rgb(35, 145, 189);
+  padding-bottom: 5px;
+  font-size: 30px;
+}
+
+button {
+  background: none;
+  border: solid rgb(35, 145, 189);
+  border-radius: 2px;
+  font-family: "Roboto";
+  letter-spacing: 2px;
+  color: rgb(35, 145, 189);
+}
+
+button:hover {
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: rgb(35, 145, 189);
+}
+
+.buttons {
+  padding: 20px 10px;
+}
+
+.photo {
+  min-width: 170px;
+  min-height: 170px;
+  background-image: url();
+  background-size: cover;
+  border: solid rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 30px;
+  margin: 0px 90px;
+  background-color: rgb(35, 145, 189);
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.menu-item {
+  width: 40%;
+  display: flex;
+  margin-top: 20px;
+  padding: 0px 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  margin: 10% 0;
+  padding-bottom: 0;
+  border-bottom: solid rgb(255, 255, 255) 2px;
+}
+
+header p {
+  color: rgb(255, 255, 255);
+  padding-top: 6px;
+}
+
+article {
+  font-size: 55%;
+  margin-left: 20px;
+}

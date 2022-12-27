@@ -1,0 +1,56 @@
+.header{
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(126, 220, 236);
+  box-shadow: 0px 2px 30px rgba(0, 0,0, 0.5) ;
+  background-color: white;
+}
+body{
+  z-index: 0;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial,
+  Helvetica,
+  sans-serif;
+}
+
+.header button{
+  margin-top: 30%;
+  background: none;
+  border: none;
+}
+
+body button{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+  border-width: 2px;
+  border-radius: 3px;
+  background: none;
+  transition: 0.2s;
+}
+
+body button:hover{
+  background-color: black;
+  color: aliceblue;
+}
+
+body p{
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 800;
+  background-color: black;
+  color: aliceblue;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
